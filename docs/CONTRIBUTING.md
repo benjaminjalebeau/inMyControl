@@ -52,7 +52,7 @@ Thank you for your interest in contributing to InMyControl! This document provid
 
 4. **Set up Supabase:**
    - Create a new Supabase project at https://supabase.com
-   - Run the database migrations from `DATABASE.md`
+   - Run the database migrations from [`DATABASE.md`](DATABASE.md)
    - Configure Storage buckets: `profile-images`, `attachments`
    - Set up RLS policies as documented
 
@@ -134,7 +134,7 @@ InMyControl/
 - Prefer composition over inheritance
 - Use Supabase client from context/provider
 
-### Database Guidelines践
+### Database Guidelines
 
 - Always use parameterized queries
 - Rely on RLS policies for security (never bypass)
@@ -159,7 +159,7 @@ InMyControl/
 
 ## Sprint Workflow
 
-Refer to the Roadmap in `README.md` for current sprint goals.
+Refer to the Roadmap in [`README.md`](../README.md) for current sprint goals.
 
 1. **Sprint Planning:**
    - Review sprint objectives
@@ -192,7 +192,7 @@ Refer to the Roadmap in `README.md` for current sprint goals.
 1. Create migration file in `supabase/migrations/`
 2. Run migration locally
 3. Test RLS policies
-4. Document in `DATABASE.md` if significant
+4. Document in [`DATABASE.md`](DATABASE.md) if significant
 5. Include in PR description
 
 ### Adding a New API Endpoint
@@ -201,7 +201,7 @@ Refer to the Roadmap in `README.md` for current sprint goals.
 2. Add authentication middleware
 3. Implement error handling
 4. Write tests
-5. Update `API.md` documentation
+5. Update [`API.md`](API.md) documentation
 
 ### Adding a New Component
 
@@ -271,9 +271,9 @@ Refer to the Roadmap in `README.md` for current sprint goals.
 
 ## Documentation
 
-- Update `README.md` for major features
-- Update `API.md` for API changes
-- Update `DATABASE.md` for schema changes
+- Update [`README.md`](../README.md) for major features
+- Update [`API.md`](API.md) for API changes
+- Update [`DATABASE.md`](DATABASE.md) for schema changes
 - Add inline code comments for complex logic
 - Update this file if workflow changes
 

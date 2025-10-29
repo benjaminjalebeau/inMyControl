@@ -618,7 +618,7 @@ Consider implementing rate limiting for serverless endpoints to prevent abuse:
 Use Supabase client for most CRUD operations:
 - Recurring tasks CRUD
 - One-time tasks CRUD
-- Task logs CRUD外套
+- Task logs CRUD
 - Categories CRUD
 - Quotes retrieval
 - User profile updates
