@@ -454,6 +454,3 @@ Enforce owner-based access:
 4. Implement DB schemas and RLS policies in Supabase
 
 5. Build Sprint 1 features and iterate on UX
-
-#   i n M y C o n t r o l  
- 
